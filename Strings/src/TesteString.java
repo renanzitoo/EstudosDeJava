@@ -35,6 +35,13 @@ public class TesteString {
 	       System.out.println(str.substring(12,15));
 	       System.out.println(str.substring(22,27));
 	       
+	       System.out.println("Posição: " +str.indexOf("fox"));
+	       System.out.println("Posição: " +str.indexOf("jumps"));
+	       
+	       System.out.println("O trocado por x :" + str.replace('o', 'x'));
+	  
+	       
+	       
 		
 		
 
