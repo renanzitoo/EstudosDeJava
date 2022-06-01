@@ -15,7 +15,7 @@ public class Soma_Com_For {
 		for(i=n1;i<=n2;i++) {
 			acc= acc + i;
 		}
-		System.out.println("O valor do acumulador é:" + acc);
+		System.out.println("O valor do acumulador é: " + acc);
 		
 		
 		

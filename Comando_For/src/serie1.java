@@ -1,23 +1,21 @@
 import java.util.Scanner;
-
-public class Acumulador {
+public class serie1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Scanner sc = new Scanner(System.in);
-		int n=0,i=1,acc=1;
+		
+		int i=1, n=0;
+		double s=0;
 		
 		System.out.println("Digite o valor de n");
-		n=sc.nextInt();
+		n = sc.nextInt();
 		
-		for(i=1;i<=n;i++){
-			acc=acc*i;
-			System.out.println("O potencia  " +i +" é " + acc);
+		for(i=1;i<n;i=i+2) {
+			s=s+(1/i);
 		}
-		
-		
-		
+		System.out.println("O valor de s é = "+s);
+	
 
 	}
 
