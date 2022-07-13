@@ -12,7 +12,7 @@ public class Atividade5 {
 			System.out.println("O preço a ser pago"+kwpreco);
 			kwprecoUn = kwpreco/kwUsado;
 			System.out.println("O valor da unidade do KW"+kwprecoUn);
-			kwprecDesc = kwpreco - (kwpreco/0.1);
+			kwprecDesc = kwpreco - (kwpreco*0.1);
 			System.out.println("O valor com desconto"+kwprecDesc);
 			
 		

@@ -4,7 +4,7 @@ public class Atividade2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		String frase, fraseI;
+		String frase;
 		int cont, i;
 		System.out.println("Digite a frase");
 		frase = sc.nextLine();
